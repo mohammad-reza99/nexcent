@@ -1,0 +1,92 @@
+:root {
+  /* Neutral */
+  --clr-black: #263238;
+  --clr-dark-grey: #4d4d4d;
+  --clr-grey: #717171;
+  --clr-light-grey: #89939e;
+  --clr-grey-blue: #abbed1;
+  --clr-silver: #f5f7fa;
+  --clr-white: #ffffff;
+
+  /* Primary, Secondary, Info */
+  --clr-primary: #4caf4f;
+  --clr-secondary: #263238;
+  --clr-info: #2194f3;
+
+  /* Color Shades */
+  --clr-shade-1: #43a046;
+  --clr-shade-2: #388e3b;
+  --clr-shade-3: #0b120c;
+  --clr-shade-4: #1b5e1f;
+  --clr-shade-5: #103e13;
+
+  /* Color Tints */
+  --clr-tint-1: #66bb69;
+  --clr-tint-2: #81c784;
+  --clr-tint-3: #a5d6a7;
+  --clr-tint-4: #c8e6c9;
+  --clr-tint-5: #e8f5e9;
+
+  /* Action Colors */
+  --clr-warning: #fbc02d;
+  --clr-error: #e53935;
+  --clr-success: #2e7d31;
+
+  /* Headlines */
+  --font-headline-1-size: 4rem; /* 64px */
+  --font-headline-1-line-height: 4.75rem; /* 76px */
+  --font-headline-1-weight: 600;
+
+  --font-headline-2-size: 2.25rem; /* 36px */
+  --font-headline-2-line-height: 2.75rem; /* 44px */
+  --font-headline-2-weight: 600;
+
+  --font-headline-3-size: 1.75rem; /* 28px */
+  --font-headline-3-line-height: 2.25rem; /* 36px */
+  --font-headline-3-weight: 600;
+
+  --font-headline-4-size: 1.25rem; /* 20px */
+  --font-headline-4-line-height: 1.75rem; /* 28px */
+  --font-headline-4-weight: 600;
+
+  /* Body - Regular */
+  --font-body-1-regular-size: 1.125rem; /* 18px */
+  --font-body-1-regular-line-height: 1.75rem; /* 28px */
+  --font-body-1-regular-weight: 400;
+
+  --font-body-2-regular-size: 1rem; /* 16px */
+  --font-body-2-regular-line-height: 1.5rem; /* 24px */
+  --font-body-2-regular-weight: 400;
+
+  --font-body-3-regular-size: 0.875rem; /* 14px */
+  --font-body-3-regular-line-height: 1.25rem; /* 20px */
+  --font-body-3-regular-weight: 400;
+
+  --font-body-4-regular-size: 0.75rem; /* 12px */
+  --font-body-4-regular-line-height: 1rem; /* 16px */
+  --font-body-4-regular-weight: 400;
+
+  /* Body - Medium */
+  --font-body-1-medium-size: 1.125rem;
+  --font-body-1-medium-line-height: 1.75rem;
+  --font-body-1-medium-weight: 500;
+
+  --font-body-2-medium-size: 1rem;
+  --font-body-2-medium-line-height: 1.5rem;
+  --font-body-2-medium-weight: 500;
+
+  --font-body-3-medium-size: 0.875rem;
+  --font-body-3-medium-line-height: 1.25rem;
+  --font-body-3-medium-weight: 500;
+
+  --font-body-4-medium-size: 0.75rem;
+  --font-body-4-medium-line-height: 1rem;
+  --font-body-4-medium-weight: 500;
+
+  /* Shadows */
+  --shadow-1: 0px 2px 4px rgba(171, 190, 209, 0.6); /* 2px, 60% */
+  --shadow-2: 0px 4px 8px rgba(171, 190, 209, 0.4); /* 4px, 40% */
+  --shadow-3: 0px 6px 12px rgba(171, 190, 209, 0.3); /* 6px, 30% */
+  --shadow-4: 0px 8px 16px rgba(171, 190, 209, 0.4); /* 8px, 40% */
+  --shadow-5: 0px 16px 24px rgba(171, 190, 209, 0.3); /* 16px, 30% */
+}

@@ -1,0 +1,83 @@
+@import url(variables.css);
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: var(--font-body-2-regular-size);
+  line-height: var(--font-body-2-regular-line-height);
+  font-weight: var(--font-body-2-regular-weight);
+  color: var(--clr-dark-grey);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 600;
+  color: var(--clr-dark-grey);
+}
+
+h1 {
+  font-size: var(--font-headline-1-size);
+  line-height: var(--font-headline-1-line-height);
+}
+
+h2 {
+  font-size: var(--font-headline-2-size);
+  line-height: var(--font-headline-2-line-height);
+}
+
+h3 {
+  font-size: var(--font-headline-3-size);
+  line-height: var(--font-headline-3-line-height);
+}
+
+h4 {
+  font-size: var(--font-headline-4-size);
+  line-height: var(--font-headline-4-line-height);
+}
+
+.btn {
+  border-radius: 4px;
+  padding: 14px 24px;
+
+  svg {
+    margin-left: 8px;
+    fill: currentColor;
+    width: 20px;
+  }
+}
+
+.btn-primary {
+  background-color: var(--clr-primary) !important;
+  border-color: var(--clr-primary) !important;
+  color: var(--clr-white) !important;
+
+  &:hover {
+    background-color: var(--clr-shade-1) !important;
+    border-color: var(--clr-shade-1) !important;
+  }
+}
+
+.text-primary {
+  color: var(--clr-primary) !important;
+}
+
+.bg-silver {
+  background-color: var(--clr-silver) !important;
+}
+
+#hero-slider {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--clr-silver);
+
+  .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--clr-primary) !important;
+  }
+}
