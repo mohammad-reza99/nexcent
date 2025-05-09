@@ -82,13 +82,11 @@ h4 {
   }
 }
 
-#client {
-  .client-logos {
-    text-align: center;
+.client-logos {
+  text-align: center;
 
-    img {
-      width: 80%;
-    }
+  img {
+    width: 80%;
   }
 }
 
@@ -142,5 +140,108 @@ h4 {
     h3 {
       padding-inline: 3rem;
     }
+  }
+}
+
+.icon-text {
+  h3 {
+    margin-bottom: 0;
+    font-weight: 700;
+  }
+
+  .icon {
+    img {
+      position: relative;
+      top: -10px;
+    }
+  }
+}
+
+#customer {
+  p {
+    font-size: var(--font-body-2-medium-size);
+    line-height: var(--font-body-2-medium-line-height);
+    font-weight: var(--font-body-2-medium-weight);
+  }
+
+  .customer-text {
+    color: var(--clr-light-grey);
+    font-size: var(--font-body-2-regular-size);
+  }
+}
+
+.card-image-text {
+  .card-image {
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+
+  .card-text {
+    .card-text-body {
+      border-radius: 0.5rem;
+      background-color: var(--clr-silver);
+      padding: 1rem;
+      box-shadow: var(--shadow-1);
+      margin-top: -30%;
+      position: relative;
+    }
+  }
+}
+
+footer {
+  background-color: var(--clr-black);
+  color: var(--clr-silver) !important;
+  padding: 3rem 0;
+  font-size: var(--font-body-3-regular-size);
+
+  h4 {
+    color: var(--clr-white) !important;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .form-group {
+    position: relative;
+
+    svg {
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      fill: var(--clr-light-grey);
+      width: 15px;
+      height: auto;
+    }
+  }
+  .form-control {
+    background-color: var(--clr-grey) !important;
+    border: var(--clr-grey) !important;
+    color: var(--clr-white) !important;
+
+    &::placeholder {
+      color: var(--clr-light-grey) !important;
+    }
+  }
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: var(--clr-silver);
+
+  svg {
+    width: 30px;
+    height: auto;
+    fill: var(--clr-silver);
   }
 }
